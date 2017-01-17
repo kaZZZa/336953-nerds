@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Svetlana Solomatina](https://up.htmlacademy.ru/htmlcss/16/user/336953).
+* Студент: [Svetlana Solomatina For the Horde!](https://up.htmlacademy.ru/htmlcss/16/user/336953).
 * Наставник: `Никита Рогатнев`.
 
 ---
