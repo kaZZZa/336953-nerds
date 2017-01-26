@@ -4,21 +4,23 @@
 <head>
     <meta charset="utf-8">
     <title>Nerds»</title>
+
     <body>
         <header class="main-header">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html"> <img src="nerds_logo.png" alt="Nerds"></a>
-                  </div>
+                    <a href="index.html"> <img src="nerds_logo.png" alt="Nerds">
+                    </a>
+                </div>
                 <nav class="main-navigation">
                     <ul>
-                        <li><a href="catalog.html">Студия</a>
+                        <li><a href="#">Студия</a>
                         </li>
-                        <li><a href="catalog.html">Клиенты</a>
+                        <li><a href="#">Клиенты</a>
                         </li>
                         <li><a href="catalog.html">Магазин</a>
                         </li>
-                        <li><a href="catalog.html">Контакты</a>
+                        <li><a href="#">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -27,39 +29,68 @@
                 </div>
 
                 <h1>Магазин готовых шаблонов</h1>
-                    <section class="sort">
+                <aside>
+                    <form action="http//...." method="post">
                         <div class="price">
-                            <h2>Веб-сайты</h2>
-                            <p>Стоимость
-                            </p>
-                        </div>
-                        <input type="range">
-                        <div class="sort-item">
-                            <h2>Сортировать</h2>
-                            <ul>
-                                <li>По цене</li>
-                                <li>По типу</li>
-                                <li>По названию</li>
-                            </ul>
+                            <h2>Стоимость</h2>
+                            <input type="range">
                         </div>
                         <div class="option">
                             <h2>Сетка</h2>
-                            <ul>
-                                <li>Адаптивная</li>
-                                <li>Фиксированная</li>
-                                <li>Резиновая</li>
-                            </ul>
-                            <h2>Особенности</h2>
-                            <ul>
-                                <li>Слайдер/li>
-                                    <li>Блок преимуществ</li>
-                                    <li>Новости</li>
-                                    <li>Галерея</li>
-                                    <li>Корзина</li>
-                            </ul>
-                            <a class="btn" href="#">Показать</a>
+                            <label>
+                                <input type="checkbox" checked>Адаптивная
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox">Фиксированная
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox">Резиновая
+                            </label>
+                            <br>
                         </div>
-                    </section>
+                        <div class="features">
+                            <h2>Особенности</h2>
+                            <label>
+                                <input type="checkbox" checked>Слайдер
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox">Блок преимуществ
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" checked>Новости
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox">Галерея
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox">Корзина
+                            </label>
+                            <br>
+                        </div>
+                        <a class="btn" href="#">Показать</a>
+
+                    </form>
+                </aside>
+                <div class="sort-item">
+                    <h2>Сортировать</h2>
+                    <ul>
+                        <a href="#">
+                            <li>По цене</li>
+                        </a>
+                        <a href="#">
+                            <li>По типу</li>
+                        </a>
+                        <a href="#">
+                            <li>По названию</li>
+                        </a>
+                    </ul>
+
                     <section class="catalog">
                         <article class="catalog-item">
                             <img src="sedona.jpg">
@@ -89,7 +120,7 @@
                             <img src="mishka_index.jpg">
                             <div class="catalog-description">
                                 <h1>Mishka</h1>
-                                <p>Информационный сайт для медеведей</p>
+                                <p>Информационный сайт для медведей</p>
                                 <a class="btn" href="#">9900 руб.</a>
                             </div>
                         </article>
@@ -97,7 +128,7 @@
                             <img src="aplus_index.jpg">
                             <div class="catalog-description">
                                 <h1>Aplus</h1>
-                                <p>Информационный сайт для медеведей</p>
+                                <p>Информационный сайт для учащихся</p>
                                 <a class="btn" href="#">9900 руб.</a>
                             </div>
                         </article>
@@ -105,33 +136,36 @@
                             <img src="kvast_index.jpg">
                             <div class="catalog-description">
                                 <h1>Kvast</h1>
-                                <p>Информационный сайт для медеведей</p>
+                                <p>Информационный сайт для любителей кваса</p>
                                 <a class="btn" href="#">9900 руб.</a>
                             </div>
                         </article>
+                    </section>
+                    <div class="pages">
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>Следующая</li>
+                        </ul>
+                    </div>
+                    <section class="map">
+                        <img src="http://placehold.it/150x100" alt="map">
+                        <h4>NERDIS DESIGN STUDIO</h4>
+                        <p>
+                            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 Телефон: +7 (812) 666-02-66
+                        </p>
+                        <a class="btn" href="#">Напишите нам</a>
+                    </section>
 
-                        <div class="pages">
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                                <li>Следующая</li>
-                                <section class="map">
-                                    <img src="http://placehold.it/150x100" alt="map">
-                                    <h4>NERDIS DESIGN STUDIO</h4>
-                                    <p>
-                                        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 Телефон: +7 (812) 666-02-66
-                                    </p>
-                                    <a class="btn" href="#">Напишите нам</a>
-                                </section>
 
-
-                                <footer class="main-footer">
-                                    <h4>Давайте дружить!</h4>
-                                    <p>Скидка 10% для друзей из социальных сетей</p>
-                                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-                                </footer>
+                    <footer class="main-footer">
+                        <h4>Давайте дружить!</h4>
+                        <p>Скидка 10% для друзей из социальных сетей</p>
+                        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                    </footer>
     </body>
+
 </html>
