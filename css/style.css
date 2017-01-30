@@ -1,0 +1,23 @@
+
+
+html {
+ height:100%
+}
+body {
+ font:14 px Robotic;
+ height: 100%
+}
+H2 {
+ color: black;
+ font-size: 200%;
+ font-weight:bold;
+ font-family: Robotic;
+ height: 100%
+ }
+H4 {
+ color: black;
+ font-size: 150%;
+ font-weight:bold;
+ font-family: Robotic;
+ height: 100%
+ }
