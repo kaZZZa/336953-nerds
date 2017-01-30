@@ -1,9 +1,15 @@
-html {
-  height: 100%
+* {
+  box-sizing: border-box;
 }
 
 body {
+  width: 100%;
   font: 14px Robotic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 h2 {
@@ -18,4 +24,71 @@ h4 {
   font-size: 150%;
   font-weight: bold;
   font-family: Robotic;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.service {
+  width: 100%;
+  font-size: 0;
+}
+
+.service-item {
+  width: 320px;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: top;
+  margin-right: 100px;
+}
+
+.service-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.about-left {
+  width: 800px;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: top;
+  0
+}
+
+.about-right {
+  width: 350px;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+.partners a {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 260px;
+  font-size: 0;
+  padding: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.main-footer {
+  outline: 1px solid red;
+  width: 1200px;
+  font-size: 12px;
+  vertical-align: center;
+  margin-right: 100px;
+}
+
+.ad {
+  float: left;
+  width: 600px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.networks {
+  width: 260px;
 }
