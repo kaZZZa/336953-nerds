@@ -1,23 +1,21 @@
-
-
 html {
- height:100%
+  height: 100%
 }
+
 body {
- font:14 px Robotic;
- height: 100%
+  font: 14px Robotic;
 }
-H2 {
- color: black;
- font-size: 200%;
- font-weight:bold;
- font-family: Robotic;
- height: 100%
- }
-H4 {
- color: black;
- font-size: 150%;
- font-weight:bold;
- font-family: Robotic;
- height: 100%
- }
+
+h2 {
+  color: black;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: Robotic;
+}
+
+h4 {
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: Robotic;
+}
