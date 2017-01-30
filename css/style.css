@@ -80,15 +80,17 @@ h4 {
   font-size: 12px;
   vertical-align: center;
   margin-right: 100px;
+  padding: 100px;
 }
 
 .ad {
-  float: left;
+  float: right;
   width: 600px;
   font-size: 12px;
   text-align: left;
 }
 
 .networks {
+  float: left;
   width: 260px;
 }
