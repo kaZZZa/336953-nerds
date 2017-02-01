@@ -94,3 +94,13 @@ h4 {
   float: left;
   width: 260px;
 }
+
+h1 {
+  width: 760px;
+  margin: auto;
+}
+
+aside {
+  width: 280px;
+  margin: 0px 20px 0px 20px;
+}
