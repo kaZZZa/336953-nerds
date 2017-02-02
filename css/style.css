@@ -1,52 +1,11 @@
 * {
   box-sizing: border-box;
+  outline: 1px dashed lightgrey;
 }
 
 body {
-  min-width: 1440px;
-  min-height: 2400px;
   margin: 0;
   padding: 0;
-}
-
-.logo {
-  float: left;
-  width: 200px;
-  min-height: 70px;
-}
-
-.main-header {
-  margin-bottom: 60px;
-}
-
-.main-navigation {
-  float: left;
-  width: 780px;
-  min-height: 70px;
-}
-
-.user-block {
-  float: right;
-  width: 140px;
-  min-height: 70px;
-}
-
-slider {
-  width: 1200px;
-  font-size: 0;
-}
-
-.slider-text-1 {
-  float: left;
-  dislpay: inline-block;
-  font-size: 14px;
-}
-
-.slide slide-1 {
-  float: right;
-  width: 420px;
-  min-height: 280px;
-  dislpay: inline-block;
 }
 
 img {
@@ -72,72 +31,171 @@ h4 {
   width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+
+/*
+  HEADER AND SLIDER
+*/
+
+.logo {
+  width: 200px;
+  min-height: 70px;
+}
+
+.main-header {
+  background: grey;
+}
+
+.main-navigation {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.main-navigation ul {
+  display: flex;
+}
+
+.main-navigation li {
+  list-style-type: none;
+}
+
+.user-block {
+  width: 140px;
+  text-align: left;
+}
+
+.slider {
+  width: 1200px;
+  outline: 1px solid red;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide-text, .slide-image {
+  width: 50%;
+}
+
+
+/*
+  SERVICE
+*/
 
 .service {
   width: 100%;
-  font-size: 0;
+  display: flex;
+  padding: 40px 0;
 }
 
 .service-item {
-  width: 320px;
-  display: inline-block;
-  font-size: 12px;
-  vertical-align: top;
-  margin-right: 100px;
+  width: 300px;
+  margin-right: 100px
 }
 
 .service-item:nth-child(3) {
   margin-right: 0;
 }
 
+
+/*
+  ABOUT
+*/
+
 .about-left {
   width: 800px;
-  display: inline-block;
   font-size: 12px;
-  vertical-align: top;
-  0
 }
 
 .about-right {
   width: 350px;
-  display: inline-block;
   font-size: 12px;
-  vertical-align: top;
+}
+
+
+/*
+  PARTNERS
+*/
+
+.partners {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .partners a {
-  outline: 1px solid red;
-  display: inline-block;
-  width: 260px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
-  text-align: center;
+  width: 300px;
 }
 
-.main-footer {
-  outline: 1px solid red;
+.map {
   width: 1200px;
-  font-size: 12px;
-  vertical-align: center;
-  margin-right: 100px;
-  padding: 100px;
+  margin: 0 auto;
+}
+
+
+/*
+  FOOTER
+*/
+
+.main-footer {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .ad {
-  float: right;
   width: 600px;
   font-size: 12px;
   text-align: left;
 }
 
 .networks {
-  float: left;
   width: 260px;
 }
 
 aside {
   width: 280px;
   margin: 20px;
+  display: flex;
+}
+
+.main-header h1 {
+  width: 100%;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.sort-item {
+  display: flex;
+}
+
+.catalog {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog-item {
+  width: 360px;
+  float: left;
+  margin: 20px;
+}
+
+.pages ul {
+  width: 460px;
+  display: flex;
+  text-align: center;
+}
+
+.pages li {
+  list-style-type: none;
 }
