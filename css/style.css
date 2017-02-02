@@ -76,8 +76,16 @@ h4 {
   display: flex;
 }
 
-.slide-text, .slide-image {
-  width: 50%;
+.slide-2, .slide-3 {
+  display: none;
+}
+
+.slide-text {
+  width: 400px;
+}
+
+.slide-image {
+  width: 760px;
 }
 
 
@@ -111,7 +119,7 @@ h4 {
 }
 
 .about-right {
-  width: 350px;
+  width: 360px;
   font-size: 12px;
 }
 
@@ -132,8 +140,7 @@ h4 {
 }
 
 .map {
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 
@@ -145,10 +152,11 @@ h4 {
   width: 1200px;
   display: flex;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .ad {
-  width: 600px;
+  flex-grow: 1;
   font-size: 12px;
   text-align: left;
 }
@@ -158,9 +166,13 @@ h4 {
 }
 
 aside {
-  width: 280px;
-  margin: 20px;
+  width: 260px;
+  margin: 0 100px 0 0;
   display: flex;
+}
+
+aside form {
+  width: 260px;
 }
 
 .main-header h1 {
@@ -176,6 +188,12 @@ label {
 
 .sort-item {
   display: flex;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.sort-item ul {
+  flex-grow: 1;
 }
 
 .catalog {
@@ -188,6 +206,10 @@ label {
   width: 360px;
   float: left;
   margin: 20px;
+}
+
+.pages {
+  width: 100%;
 }
 
 .pages ul {
