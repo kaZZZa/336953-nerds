@@ -6,6 +6,22 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 16pt;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.woff2') format('woff2'), url('roboto.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Robotobold';
+  src: url('robotobold.woff2') format('woff2'), url('robotobold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Robotomedium';
+  src: url('robotomedium.woff2') format('woff2'), url('robotomedium.woff') format('woff');
 }
 
 img {
@@ -13,18 +29,46 @@ img {
   height: auto;
 }
 
-h2 {
-  color: black;
-  font-size: 200%;
+h1 {
+  font-family: 'Robotobold';
+  color: #000000;
   font-weight: bold;
-  font-family: Robotic;
+  font-family: Roboto;
+}
+
+h2 {
+  font-family: 'Robotobold';
+  color: #000000;
+  font-size: 55pt;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+h3 {
+  font-family: 'Robotobold';
+  color: #000000;
+  font-size: 45pt;
+  font-weight: bold;
+  font-family: Roboto;
 }
 
 h4 {
-  color: black;
-  font-size: 150%;
+  font-family: 'Robotobold';
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 24pt;
   font-weight: bold;
-  font-family: Robotic;
+  font-family: Roboto;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 12pt;
+}
+
+li {
+  font-family: 'Roboto';
+  font-size: 12pt;
 }
 
 .container {
@@ -46,7 +90,7 @@ h4 {
 }
 
 .main-header {
-  background: grey;
+  background: #eeeeee;
 }
 
 .main-navigation {
