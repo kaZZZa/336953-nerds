@@ -7,21 +7,26 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16pt;
+  font-family: 'Roboto', Arial, Sans-serif;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('roboto.woff2') format('woff2'), url('roboto.woff') format('woff');
+  src: url('../fonts/roboto.woff2') format('woff2'), url('../fonts/roboto.woff') format('woff');
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Robotobold';
-  src: url('robotobold.woff2') format('woff2'), url('robotobold.woff') format('woff');
+  font-family: 'Roboto';
+  src: url('../fonts/robotomedium.woff2') format('woff2'), url('../fonts/robotomedium.woff') format('woff');
+  font-weight: bold;
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Robotomedium';
-  src: url('robotomedium.woff2') format('woff2'), url('robotomedium.woff') format('woff');
+  font-family: 'Roboto';
+  src: url('../fonts/robotobold.woff2') format('woff2'), url('../fonts/robotobold.woff') format('woff');
+  font-weight: 700;
 }
 
 img {
@@ -37,17 +42,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Robotobold';
+  font-family: 'Robotomedium';
   color: #000000;
-  font-size: 55pt;
+  font-size: 55px;
   font-weight: bold;
   font-family: Roboto;
 }
 
 h3 {
-  font-family: 'Robotobold';
+  font-family: 'Robotomedium';
   color: #000000;
-  font-size: 45pt;
+  font-size: 45px;
   font-weight: bold;
   font-family: Roboto;
 }
@@ -56,19 +61,24 @@ h4 {
   font-family: 'Robotobold';
   color: #000000;
   text-transform: uppercase;
-  font-size: 24pt;
+  font-size: 24px;
   font-weight: bold;
   font-family: Roboto;
 }
 
 p {
   font-family: 'Roboto';
-  font-size: 12pt;
+  font-size: 16px;
 }
 
 li {
   font-family: 'Roboto';
-  font-size: 12pt;
+  font-size: 16px;
+}
+
+span {
+  font-family: 'Roboto';
+  font-size: 45px;
 }
 
 .container {
