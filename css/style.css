@@ -19,7 +19,6 @@ body {
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/robotomedium.woff2') format('woff2'), url('../fonts/robotomedium.woff') format('woff');
-  font-weight: bold;
   font-weight: 500;
 }
 
@@ -32,61 +31,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-
-h1 {
-  font-family: 'Robotobold';
-  color: #000000;
-  font-weight: bold;
-  font-family: Roboto;
-}
-
-h2 {
-  font-family: 'Robotomedium';
-  color: #000000;
-  font-size: 55px;
-  font-weight: bold;
-  font-family: Roboto;
-}
-
-h3 {
-  font-family: 'Robotomedium';
-  color: #000000;
-  font-size: 45px;
-  font-weight: bold;
-  font-family: Roboto;
-}
-
-h4 {
-  font-family: 'Robotobold';
-  color: #000000;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: Roboto;
-}
-
-p {
-  font-family: 'Roboto';
-  font-size: 16px;
-}
-
-li {
-  font-family: 'Roboto';
-  font-size: 16px;
-}
-
-span {
-  font-family: 'Roboto';
-  font-size: 45px;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 
@@ -142,6 +86,20 @@ span {
   width: 760px;
 }
 
+.slide-text h2 {
+  font-family: 'Robotomedium';
+  color: #000000;
+  font-size: 55px;
+  font-family: Roboto;
+}
+
+.container h2 {
+  font-family: 'Robotomedium';
+  color: #000000;
+  font-size: 55px;
+  font-family: Roboto;
+}
+
 
 /*
   SERVICE
@@ -162,6 +120,35 @@ span {
   margin-right: 0;
 }
 
+.service-item h4 {
+  font-family: 'Robotobold';
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+.container h4 {
+  font-family: 'Robotobold';
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+.contacts h4 {
+  font-family: 'Robotobold';
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Roboto;
+}
+
+.service-item p {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
 
 /*
   ABOUT
@@ -172,9 +159,51 @@ span {
   font-size: 12px;
 }
 
+.about-left h3 {
+  font-family: 'Robotomedium';
+  color: #000000;
+  font-size: 45px;
+  font-family: Roboto;
+}
+
+.about-left p {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.about-left li {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
 .about-right {
   width: 360px;
   font-size: 12px;
+}
+
+.about-right p {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.block-right {
+  width: 360px;
+}
+
+.about-right ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.about-right li {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.about-right span {
+  font-family: 'Roboto';
+  font-size: 45px;
 }
 
 
@@ -195,6 +224,25 @@ span {
 
 .map {
   width: 100%;
+}
+
+
+/*
+catalog
+*/
+
+.sort-item ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -270,8 +318,18 @@ label {
   width: 460px;
   display: flex;
   text-align: center;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
-.pages li {
-  list-style-type: none;
+.ad h3 {
+  font-family: 'Robotomedium';
+  color: #000000;
+  font-size: 45px;
+  font-family: Roboto;
+}
+
+.ad p {
+  font-family: 'Roboto';
+  font-size: 16px;
 }
