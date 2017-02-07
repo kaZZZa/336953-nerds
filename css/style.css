@@ -90,7 +90,12 @@ img {
   font-family: 'Robotomedium';
   color: #000000;
   font-size: 55px;
-  font-family: Roboto;
+}
+
+.slide-text p {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 16px;
 }
 
 .container h2 {
@@ -171,6 +176,10 @@ img {
   font-size: 16px;
 }
 
+.about-left ul {
+  list-style-type: none;
+}
+
 .about-left li {
   font-family: 'Roboto';
   font-size: 16px;
@@ -223,7 +232,9 @@ img {
 }
 
 .map {
-  width: 100%;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -261,10 +272,16 @@ catalog
   flex-grow: 1;
   font-size: 12px;
   text-align: left;
+  width: 760px;
 }
 
 .networks {
-  width: 260px;
+  width: 400px;
+  display: inline-block;
+}
+
+.social-btn {
+  width: 80px;
 }
 
 aside {
